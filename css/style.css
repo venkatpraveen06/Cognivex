@@ -87,6 +87,66 @@ button, input, textarea, select { font-family: inherit; border: none; outline: n
 
 .topbar a:hover { color: var(--text-white); }
 
+/* ---------- Logo ---------- */
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+}
+
+.logo span {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0066cc;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-logo img{
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    text-decoration: none;
+}
+
+.footer-logo img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.footer-logo h3,
+.footer-logo{
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-logo span{
+    color: #0084ff;
+}
+
 /* ---------- Navigation ---------- */
 .navbar {
   position: sticky;
