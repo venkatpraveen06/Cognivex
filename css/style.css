@@ -1268,6 +1268,27 @@ button, input, textarea, select { font-family: inherit; border: none; outline: n
   transition: background var(--transition);
 }
 
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-link {
+    width: 45px;
+    height: 45px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.social-link i {
+    color: white;
+    font-size: 22px;
+}
+
 .social-link:hover { background: var(--primary); }
 
 .footer-bottom {
